@@ -1,0 +1,11 @@
+/* Correct Usage */
+#element {
+  width: calc(100% - 10px);
+  height: calc(50vh + 20px);
+}
+
+/* Incorrect Usage */
+/* #element {
+  width: calc(100%-10px); /* Missing spaces around '-' */
+  height: calc(50vh+20px); /* Missing spaces around '+' */
+} */
